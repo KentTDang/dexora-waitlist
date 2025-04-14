@@ -33,7 +33,7 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <header className="flex items-center p-4">
-            <Image src="/image.png" alt="Dexora Logo" width={10} height={10} />
+            <Image src="/image.png" alt="Dexora Logo" width={50} height={50} />
             <h1 className="text-2xl font-bold text-gray-900">Dexora</h1>
           </header>
           {children}
