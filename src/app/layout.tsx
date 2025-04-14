@@ -1,14 +1,10 @@
 import { type Metadata } from "next";
 import {
-  ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
+  ClerkProvider
 } from "@clerk/nextjs";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Image from 'next/image'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,7 +33,7 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <header className="flex items-center p-4">
-            <img src="/image.png" alt="Dexora Logo" className="w-10 h-10" />
+            <Image src="/image.png" alt="Dexora Logo" className="w-10 h-10" />
             <h1 className="text-2xl font-bold text-gray-900">Dexora</h1>
           </header>
           {children}

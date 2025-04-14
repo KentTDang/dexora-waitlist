@@ -9,7 +9,7 @@ export default function Page() {
           <span className="text-[#5056ee]">Dexora!</span>
         </h1>
         <p className="text-gray-600 text-base sm:text-md md:text-lg">
-          We're building a free, modern trading card app that leverages scanning
+          We&apos;re building a free, modern trading card app that leverages scanning
           technology! Did I say free?
         </p>
       </div>
